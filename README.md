@@ -27,18 +27,18 @@ The common thread across both directions is a preference for methods that are **
 
 ## 📚 Publications
 
-| # | Venue | Year | Title | Artifacts |
-| :-: | :--- | :-: | :--- | :--- |
-| 3 | **ECAI** | 2025 | Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update | [📄 PDF](./Scalar%20Likelihood%20Method%20for%20Probabilistic%20Partial%20Least%20Squares%20Model%20with%20Rank%20n%20Update.pdf) · [💻 Code](https://github.com/codinghhr1103/ECAI-PPLS-SLM) |
-| 2 | **Peer-to-Peer Networking and Applications** | 2021 | Non-cryptography countermeasure against controllable event triggering attack in WSNs | [📄 PDF](./Non-cryptography%20countermeasure%20against%20controllable%20event%20triggering%20attack%20in%20WSNs.pdf) · [🔗 DOI](https://doi.org/10.1007/s12083-020-01062-6) |
-| 1 | **IEEE ICCCN** | 2020 | On the Mitigation of Controllable Event Triggering Attack in WSNs | [📄 PDF](./On%20the%20Mitigation%20of%20Controllable%20Event%20Triggering%20Attack%20in%20WSNs.pdf) |
+| # | Venue | Year | Title | PDF |
+| :-: | :--- | :-: | :--- | :-: |
+| 3 | **ECAI** | 2025 | Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update | [📄](./Scalar%20Likelihood%20Method%20for%20Probabilistic%20Partial%20Least%20Squares%20Model%20with%20Rank%20n%20Update.pdf) |
+| 2 | **Peer-to-Peer Networking and Applications** | 2021 | Non-cryptography countermeasure against controllable event triggering attack in WSNs | [📄](./Non-cryptography%20countermeasure%20against%20controllable%20event%20triggering%20attack%20in%20WSNs.pdf) |
+| 1 | **IEEE ICCCN** | 2020 | On the Mitigation of Controllable Event Triggering Attack in WSNs | [📄](./On%20the%20Mitigation%20of%20Controllable%20Event%20Triggering%20Attack%20in%20WSNs.pdf) |
 
 <details>
 <summary><b>Full citations (click to expand)</b></summary>
 
 > **Haoran Hu**, Wei Chang. *"On the Mitigation of Controllable Event Triggering Attack in WSNs."* 2020 29th International Conference on Computer Communications and Networks (ICCCN), 2020.
 
-> **Haoran Hu**, Wei Chang. *"Non-cryptography countermeasure against controllable event triggering attack in WSNs."* Peer-to-Peer Networking and Applications, 14:1071–1087, 2021. [DOI: 10.1007/s12083-020-01062-6](https://doi.org/10.1007/s12083-020-01062-6)
+> **Haoran Hu**, Wei Chang. *"Non-cryptography countermeasure against controllable event triggering attack in WSNs."* Peer-to-Peer Networking and Applications, 14:1071–1087, 2021.
 
 > **Haoran Hu**, Xingce Wang, Zhongke Wu, Shilei Du, Yuhe Zhang, Quansheng Liu. *"Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update."* ECAI 2025.
 
@@ -89,8 +89,8 @@ This paper proposes the **Scalar Likelihood Method (SLM)**: instead of alternati
 
 **Key contributions**
 
-- A **rank-$n$ update technique** that extends the classic Sherman–Morrison rank-one update to compute the determinant and inverse of the PPLS covariance matrix **without requiring square loading matrices** — preserving PPLS's dimension-reduction property (previous scalar formulations had to give this up).
-- **Closed-form maximum-likelihood estimators** for the isotropic noise variances $\sigma_e^2$, $\sigma_f^2$, $\sigma_h^2$, decoupling them from the remaining parameters. This *fixes the $\sigma_h^2$ degeneracy* observed in EM/ECM, where the algorithm is prone to collapsing into a degenerate solution.
+- A <b>rank-$n$ update technique</b> that extends the classic Sherman–Morrison rank-one update to compute the determinant and inverse of the PPLS covariance matrix **without requiring square loading matrices** — preserving PPLS's dimension-reduction property (previous scalar formulations had to give this up).
+- **Closed-form maximum-likelihood estimators** for the isotropic noise variances $\sigma_e^2$, $\sigma_f^2$, $\sigma_h^2$, decoupling them from the remaining parameters. This <i>fixes the $\sigma_h^2$ degeneracy</i> observed in EM/ECM, where the algorithm is prone to collapsing into a degenerate solution.
 - **Complexity reduction**
     - Time: $O(p^3 + q^3) \rightarrow O(r p^2 + r q^2)$
     - Space: $O((p + q)^2) \rightarrow O(p^2 + q^2)$
@@ -99,7 +99,6 @@ This paper proposes the **Scalar Likelihood Method (SLM)**: instead of alternati
     - On simulated PPLS data, SLM achieves about $12\times$ speedup over matrix-form EM across a wide range of $(p, q, r)$ combinations.
     - On the **BRCA multi-omics TCGA dataset** (705 breast cancer patients, gene expression $\times$ protein expression), SLM consistently detects **more significant gene–protein pairs than EM at every significance level** — with notably low overlap between the two, suggesting SLM surfaces biological associations that EM systematically misses.
     - A prediction pipeline built on the conditional distribution of a multivariate Gaussian yields well-calibrated uncertainty estimates across confidence levels in 5-fold cross-validation.
-- **Code**: https://github.com/codinghhr1103/ECAI-PPLS-SLM
 
 ---
 
@@ -109,7 +108,7 @@ This paper proposes the **Scalar Likelihood Method (SLM)**: instead of alternati
 my-papers/
 ├── README.md                                                                            ← you are here
 ├── On the Mitigation of Controllable Event Triggering Attack in WSNs.pdf                 ← ICCCN 2020
-├── Non-cryptography countermeasure against controllable event triggering attack in WSNs.pdf  ← P2PNA 2021
+├── Non-cryptography countermeasure against controllable event triggering attack in WSNs.pdf  ← PPNA 2021
 └── Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update.pdf  ← ECAI 2025
 ```
 
