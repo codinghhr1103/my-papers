@@ -14,9 +14,9 @@ I am a researcher with interdisciplinary interests spanning **wireless network s
 
 **Haoran Hu**, Wei Chang. "Non-cryptography countermeasure against controllable event triggering attack in WSNs." *Peer-to-Peer Networking and Applications*, 14:1071–1087, 2021. [[DOI]](https://doi.org/10.1007/s12083-020-01062-6)
 
-**Haoran Hu**, Wei Chang. "On the Mitigation of Controllable Event Triggering Attack in WSNs." *IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS)*, 2020.
+**Haoran Hu**, Wei Chang. "On the Mitigation of Controllable Event Triggering Attack in WSNs." *ICCCN 2020*.
 
-**Haoran Hu**, Xingce Wang, Zhongke Wu, Shilei Du, Yuhe Zhang, Quansheng Liu. "Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update." *ECAI 2025*. [[Code]](https://github.com/codinghhr1103/ECAI-PPLS-SLM)
+**Haoran Hu**, Xingce Wang, Zhongke Wu, Shilei Du, Yuhe Zhang, Quansheng Liu. "Scalar Likelihood Method for Probabilistic Partial Least Squares Model with Rank n Update." *ECAI 2025*. 
 
 ## Research Summary
 
