@@ -2,6 +2,8 @@
 
 **Researcher · Wireless Network Security · Statistical Machine Learning**
 
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1156--6742-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1156-6742)
+
 ---
 
 ## 👋 About Me
@@ -119,5 +121,7 @@ my-papers/
 I'm always open to discussion, collaboration, or just swapping ideas — whether about wireless security, latent-variable models, or anything else at the boundary of statistics and systems.
 
 **📧 Email**: [hhrh1h2r3@gmail.com](mailto:hhrh1h2r3@gmail.com)
+
+**🆔 ORCID**: [0000-0002-1156-6742](https://orcid.org/0000-0002-1156-6742)
 
 If you find these works useful, a ⭐ on this repo is very much appreciated!
